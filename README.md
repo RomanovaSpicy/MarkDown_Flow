@@ -13,6 +13,11 @@ A native Android application created to optimize working with Markdown-style tex
 [Support the author (Boosty).](https://boosty.to/romanovasophie)
 
 ---
+
+[VirusTotal verification results (v1.0.0-beta)](https://www.virustotal.com/gui/file/2e008cd1600342ef88674c05a19d4303f1780a9bfaa9ab415438d43a058c967c/detection)
+
+---
+
 ## 🎨 Key Features
 
 -   **Preset & Custom Binds**: Comes with a default set inspired by SpicyChat markup and allows creating unlimited custom templates.
