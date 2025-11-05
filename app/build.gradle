@@ -37,8 +37,6 @@ android {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            // <<< ДОБАВЛЕНА 1 СТРОКА >>>
-            // Применяем конфигурацию подписи к release-сборке
             signingConfig signingConfigs.release
         }
         debug {
