@@ -29,6 +29,20 @@ A native Android application created to optimize working with Markdown-style tex
 
 The app requires two special permissions for full functionality:
 
+> #### ⚠️ Enabling Permissions on Android 13+
+>
+> On modern Android versions, security settings may block you from enabling the Accessibility Service. This is a standard security feature for apps installed via APK.
+>
+> **Here is the one-time fix:**
+> 1. Go to your phone's **Settings → Apps**.
+> 2. Find **MarkDown Flow** in the list and tap on it.
+> 3. Tap the **(⋮) menu** in the top-right corner.
+> 4. Select **"Allow restricted settings"**.
+>
+> After this, you will be able to grant the permission within the app normally.
+
+The app requires two special permissions for full functionality:
+
 1.  **Display Over Other Apps**: To show the floating overlay window.
 2.  **Accessibility Service**: To find input fields, perform text insertion, and position the cursor automatically.
 
