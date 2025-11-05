@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background Layers (Dark backgrounds with depth gradation) -->
+    <color name="bg_deepest">#1A1B1A</color>
+    <color name="bg_deep">#1E1F1E</color>
+    <color name="bg_elevated">#2A2B2A</color>
+    <color name="bg_surface">#35383A</color>
+    
+    <!-- Glass Surfaces -->
+    <color name="glass_dark">#99252827</color>        <!-- 60% opacity -->
+    <color name="glass_medium">#B3303330</color>      <!-- 70% opacity -->
+    <color name="glass_light">#CC3A3D3A</color>       <!-- 80% opacity -->
+    
+    <!-- Accent Colors -->
+    <color name="primary">#A4D96C</color>
+    <color name="primary_muted">#6B8E6F</color>
+    <color name="primary_dark">#4A6B4D</color>
+    <color name="primary_glow">#33A4D96C</color>      <!-- 20% opacity for glow -->
+    <color name="primary_glow_strong">#66A4D96C</color> <!-- 40% for a strong glow -->
+    
+    <!-- Text Colors (Creamy-white palette with gradation) -->
+    <color name="text_primary">#E8E8D8</color>
+    <color name="text_secondary">#9AA394</color>
+    <color name="text_tertiary">#6B6E68</color>
+    <color name="text_hint">#4A4D48</color>
+    
+    <!-- Shadows & Highlights -->
+    <color name="shadow_dark">#0D000000</color>   <!-- 5% black -->
+    <color name="shadow_darker">#26000000</color>   <!-- 15% black -->
+    <color name="highlight_subtle">#0DFFFFFF</color>  <!-- 5% white -->
+    <color name="highlight_glow">#1AFFFFFF</color>   <!-- 10% white -->
+    
+    <!-- Status Colors -->
+    <color name="success">#6FCF97</color>
+    <color name="error">#EB5757</color>
+    <color name="warning">#F2C94C</color>
+
+    <!-- Special -->
+    <color name="scrim">#99000000</color>   <!-- 60% to darken the background -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="black_brown">#201F20</color>
+</resources>

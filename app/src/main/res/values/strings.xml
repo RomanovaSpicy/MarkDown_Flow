@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">MarkDown Flow</string>
+    <string name="app_subtitle">M•K•Down Flow</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_title">Welcome</string>
+    <string name="welcome_subtitle">Your smart Markdown assistant. Experience blazing-fast formatting with intelligent cursor positioning.</string>
+    <string name="welcome_demo_header">Quick Insert</string>
+    <string name="welcome_demo_hint">Type text…</string>
+    <string name="welcome_demo_caption">The cursor is automatically positioned between markers</string>
+    <string name="welcome_language_label">Choose language</string>
+    <string name="welcome_bottom_text">Optimize your Markdown workflow with smart templates</string>
+    <string name="welcome_button">Get Started</string>
+
+    <!-- Disclaimer Dialog -->
+    <string name="disclaimer_title">Important Information</string>
+    <string name="disclaimer_subtitle">Please read before continuing</string>
+    <string name="disclaimer_text">This app requires special permissions to function correctly. MarkDown Flow uses the “Accessibility Service” to paste text and the “Display over other apps” permission to show the floating menu.</string>
+
+    <string name="permission_overlay_title">Display over other apps</string>
+    <string name="permission_overlay_description">Required to show the floating menu</string>
+
+    <string name="permission_accessibility_title">Accessibility Service</string>
+    <string name="permission_accessibility_description">Allows the app to automatically paste template content</string>
+
+    <string name="privacy_notice_title">Privacy Notice</string>
+    <string name="privacy_notice_text">MarkDown Flow does not collect, store, or share any personal data. All templates are stored locally on your device.</string>
+
+    <string name="disclaimer_checkbox">I understand and agree to grant the necessary permissions</string>
+    <string name="disclaimer_button_next">Next</string>
+
+    <!-- Main Screen -->
+    <string name="main_title">My Templates</string>
+    <string name="main_binds_count">Templates: %d</string>
+    <string name="main_search_hint">Search templates…</string>
+    <string name="main_add_new">Create new template</string>
+
+    <string name="stats_binds_inserted">Templates\nused</string>
+    <string name="stats_keystrokes_saved">Keystrokes\nsaved</string>
+    <string name="stats_days_active">With us for\n(days)</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_overlay_preview">Overlay Preview</string>
+    <string name="settings_width">Width</string>
+    <string name="settings_height">Height (number of rows)</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_about">About</string>
+    <string name="settings_data">Data</string>
+
+    <string name="settings_version">Version</string>
+    <string name="settings_build">Build</string>
+    <string name="settings_developer">Developer</string>
+
+    <string name="settings_export">Export templates</string>
+    <string name="settings_import">Import templates</string>
+    <string name="settings_clear">Clear all data</string>
+
+    <string name="overlay_preview_header">Templates</string>
+    <string name="overlay_preview_row">Preview row %d</string>
+
+    <!-- Create Bind Dialog -->
+    <string name="create_bind_title">Create Template</string>
+    <string name="create_bind_name">Name</string>
+    <string name="create_bind_content">Content</string>
+    <string name="create_bind_save">Save</string>
+    <string name="create_bind_clear">Clear</string>
+    <string name="create_bind_help">Help</string>
+
+    <!-- Help Dialog -->
+    <string name="help_title">Cursor Positioning</string>
+    <string name="help_text">Use the | symbol to indicate where the cursor should be placed after inserting the template.\n\nExamples:\n• **|** → Bold text\n• *|* → Italic text\n• [|](url) → Link\n• ```|``` → Code block\n\nIf the | symbol is not present, the cursor will be placed at the end.</string>
+    <string name="help_copy_symbol">Copy “|” symbol</string>
+    <string name="help_close">Close</string>
+
+    <!-- Overlay -->
+    <string name="overlay_title">Templates</string>
+
+    <!-- Preset Binds -->
+    <string name="preset_dialogue">Double Quotes</string>
+    <string name="preset_action">Asterisk</string>
+    <string name="preset_bold">Bold</string>
+    <string name="preset_italic">Italic</string>
+    <string name="preset_underline">Underline</string>
+    <string name="preset_strikethrough">Strikethrough</string>
+    <string name="preset_code">Code</string>
+    <string name="preset_code_block">Code Block</string>
+    <string name="preset_heading_1">Heading 1</string>
+    <string name="preset_heading_2">Heading 2</string>
+    <string name="preset_heading_3">Heading 3</string>
+    <string name="preset_link">Link</string>
+    <string name="preset_image">Image</string>
+    <string name="preset_list">List</string>
+
+    <!-- Languages -->
+    <string name="lang_en">English</string>
+    <string name="lang_ru">Русский</string>
+    <string name="lang_fr">Français</string>
+    <string name="lang_de">Deutsch</string>
+    <string name="lang_it">Italiano</string>
+    <string name="lang_ja">日本語</string>
+    <string name="lang_zh">中文</string>
+    <string name="lang_pl">Polski</string>
+    <string name="lang_hi">हिन्दी</string>
+    <string name="lang_es">Español</string>
+    <string name="lang_pt">Português</string>
+
+    <!-- Common -->
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_bind_created">Template created successfully</string>
+    <string name="toast_bind_updated">Template updated successfully</string>
+    <string name="toast_copied">Copied to clipboard</string>
+</resources>

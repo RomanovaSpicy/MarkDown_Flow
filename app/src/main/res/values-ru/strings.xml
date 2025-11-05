@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">MarkDown Flow</string>
+    <string name="app_subtitle">M•K•Down Flow</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_title">Добро пожаловать</string>
+    <string name="welcome_subtitle">Ваш умный помощник для работы с разметкой. Оцените интеллектуальное позиционирование курсора для сверхбыстрого форматирования.</string>
+    <string name="welcome_demo_header">Быстрая вставка</string>
+    <string name="welcome_demo_hint">Введите текст…</string>
+    <string name="welcome_demo_caption">Курсор автоматически позиционируется между маркерами</string>
+    <string name="welcome_language_label">Выберите язык</string>
+    <string name="welcome_bottom_text">Оптимизируйте работу с разметкой текста умными шаблонами</string>
+    <string name="welcome_button">Начать</string>
+
+    <!-- Disclaimer Dialog -->
+    <string name="disclaimer_title">Важная информация</string>
+    <string name="disclaimer_subtitle">Пожалуйста, ознакомьтесь перед продолжением</string>
+    <string name="disclaimer_text">Для корректной работы приложению требуются специальные разрешения. MarkDown Flow использует «Службы специальных возможностей» для вставки текста и «Отображение поверх других окон» для показа плавающего меню.</string>
+
+    <string name="permission_overlay_title">Отображение поверх других окон</string>
+    <string name="permission_overlay_description">Требуется для показа плавающего меню</string>
+
+    <string name="permission_accessibility_title">Службы специальных возможностей</string>
+    <string name="permission_accessibility_description">Позволяет приложению автоматически вставлять текст шаблона</string>
+
+    <string name="privacy_notice_title">Уведомление о конфиденциальности</string>
+    <string name="privacy_notice_text">MarkDown Flow не собирает, не хранит и не передает никакие личные данные. Все шаблоны хранятся локально на вашем устройстве.</string>
+
+    <string name="disclaimer_checkbox">Я понимаю и согласен предоставить необходимые разрешения</string>
+    <string name="disclaimer_button_next">Далее</string>
+
+    <!-- Main Screen -->
+    <string name="main_title">Мои шаблоны</string>
+    <string name="main_binds_count">Шаблонов: %d</string>
+    <string name="main_search_hint">Поиск шаблонов…</string>
+    <string name="main_add_new">Создать шаблон</string>
+
+    <string name="stats_binds_inserted">Использовано\nшаблонов</string>
+    <string name="stats_keystrokes_saved">Сэкономлено\nнажатий</string>
+    <string name="stats_days_active">Вы\nс нами</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_overlay_preview">Предпросмотр оверлея</string>
+    <string name="settings_width">Ширина</string>
+    <string name="settings_height">Высота (количество строк)</string>
+    <string name="settings_language">Язык</string>
+    <string name="settings_about">О приложении</string>
+    <string name="settings_data">Данные</string>
+
+    <string name="settings_version">Версия</string>
+    <string name="settings_build">Сборка</string>
+    <string name="settings_developer">Разработчик</string>
+
+    <string name="settings_export">Экспорт шаблонов</string>
+    <string name="settings_import">Импорт шаблонов</string>
+    <string name="settings_clear">Очистить все данные</string>
+
+    <string name="overlay_preview_header">Шаблоны</string>
+    <string name="overlay_preview_row">Превью строка %d</string>
+
+    <!-- Create Bind Dialog -->
+    <string name="create_bind_title">Создать шаблон</string>
+    <string name="create_bind_name">Название</string>
+    <string name="create_bind_content">Содержимое</string>
+    <string name="create_bind_save">Сохранить</string>
+    <string name="create_bind_clear">Очистить</string>
+    <string name="create_bind_help">Справка</string>
+
+    <!-- Help Dialog -->
+    <string name="help_title">Позиционирование курсора</string>
+    <string name="help_text">Используйте символ |, чтобы указать, куда должен переместиться курсор после вставки шаблона.\n\nПримеры:\n• **|** → Жирный текст\n• *|* → Курсив\n• [|](url) → Ссылка\n• ```|``` → Блок кода\n\nЕсли | отсутствует, курсор будет помещен в конец.</string>
+    <string name="help_copy_symbol">Скопировать символ "|"</string>
+    <string name="help_close">Закрыть</string>
+
+    <!-- Overlay -->
+    <string name="overlay_title">Шаблоны</string>
+
+    <!-- Preset Binds -->
+    <string name="preset_dialogue">Двойные кавычки</string>
+    <string name="preset_action">Звездочка</string>
+    <string name="preset_bold">Жирный</string>
+    <string name="preset_italic">Курсив</string>
+    <string name="preset_underline">Подчеркнутый</string>
+    <string name="preset_strikethrough">Зачеркнутый</string>
+    <string name="preset_code">Код</string>
+    <string name="preset_code_block">Блок кода</string>
+    <string name="preset_heading_1">Заголовок 1</string>
+    <string name="preset_heading_2">Заголовок 2</string>
+    <string name="preset_heading_3">Заголовок 3</string>
+    <string name="preset_link">Ссылка</string>
+    <string name="preset_image">Изображение</string>
+    <string name="preset_list">Список</string>
+
+    <!-- Languages -->
+    <string name="lang_en">English</string>
+    <string name="lang_ru">Русский</string>
+    <string name="lang_fr">Français</string>
+    <string name="lang_de">Deutsch</string>
+    <string name="lang_it">Italiano</string>
+    <string name="lang_ja">日本語</string>
+    <string name="lang_zh">中文</string>
+    <string name="lang_pl">Polski</string>
+    <string name="lang_hi">हिन्दी</string>
+
+    <!-- Common -->
+    <string name="cancel">Отмена</string>
+    <string name="ok">ОК</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Изменить</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_bind_created">Шаблон успешно создан</string>
+    <string name="toast_bind_updated">Шаблон обновлен</string>
+    <string name="toast_copied">Скопировано в буфер обмена</string>
+</resources>

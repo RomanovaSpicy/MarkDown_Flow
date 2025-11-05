@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Glow effect -->
+    <item android:top="2dp" android:left="2dp" android:bottom="2dp" android:right="2dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/radius_m"/>
+            <solid android:color="@color/primary_glow"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/radius_m"/>
+            <gradient
+                android:type="linear"
+                android:startColor="#B36B8E6F"
+                android:endColor="#B34A6B4D"
+                android:angle="135"/>
+            <stroke 
+                android:width="@dimen/stroke_thin" 
+                android:color="@color/primary_muted"/>
+        </shape>
+    </item>
+</layer-list>

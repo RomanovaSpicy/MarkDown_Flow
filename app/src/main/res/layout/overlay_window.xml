@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/overlay_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!-- Collapsed State (Label) -->
+    <FrameLayout
+        android:id="@+id/collapsed_view"
+        android:layout_width="@dimen/overlay_collapsed_width"
+        android:layout_height="80dp"
+        android:background="@drawable/bg_overlay_collapsed"
+        android:visibility="gone"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_menu"
+            app:tint="@color/primary"/>
+    </FrameLayout>
+
+    <!-- Expanded State -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/expanded_view"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/radius_m"
+        app:cardElevation="@dimen/elevation_overlay"
+        app:strokeColor="@color/highlight_subtle"
+        app:strokeWidth="@dimen/stroke_thin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Header -->
+            <LinearLayout
+                android:id="@+id/overlay_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/space_s"
+                android:background="@color/glass_dark"
+                android:gravity="center_vertical">
+
+                <!-- Title -->
+                <TextView
+                    android:id="@+id/overlay_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/overlay_title"
+                    android:textAppearance="@style/TextAppearance.App.Body"
+                    android:textColor="@color/text_primary"/>
+
+                <!-- Settings Button -->
+                <ImageView
+                    android:id="@+id/overlay_settings_button"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginEnd="@dimen/space_xs"
+                    android:src="@drawable/ic_settings"
+                    android:padding="@dimen/space_xs"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    app:tint="@color/text_secondary"/>
+
+                <!-- Close Button -->
+                <ImageView
+                    android:id="@+id/overlay_close_button"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@drawable/ic_close"
+                    android:padding="@dimen/space_xs"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    app:tint="@color/text_secondary"/>
+            </LinearLayout>
+
+            <!-- Binds List -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/overlay_binds_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:scrollbarStyle="outsideOverlay"
+                android:fadeScrollbars="false"/>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</FrameLayout>

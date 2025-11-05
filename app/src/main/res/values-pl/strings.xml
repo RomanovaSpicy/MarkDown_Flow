@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">MarkDown Flow</string>
+    <string name="app_subtitle">M•K•Down Flow</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_title">Witaj</string>
+    <string name="welcome_subtitle">Twój inteligentny asystent Markdown. Doświadcz błyskawicznego formatowania dzięki inteligentnemu pozycjonowaniu kursora.</string>
+    <string name="welcome_demo_header">Szybkie wstawianie</string>
+    <string name="welcome_demo_hint">Wpisz tekst…</string>
+    <string name="welcome_demo_caption">Kursor automatycznie pozycjonuje się między znacznikami</string>
+    <string name="welcome_language_label">Wybierz język</string>
+    <string name="welcome_bottom_text">Zoptymalizuj swój przepływ pracy w Markdown dzięki inteligentnym szablonom</string>
+    <string name="welcome_button">Rozpocznij</string>
+
+    <!-- Disclaimer Dialog -->
+    <string name="disclaimer_title">Ważne informacje</string>
+    <string name="disclaimer_subtitle">Przeczytaj przed kontynuowaniem</string>
+    <string name="disclaimer_text">Ta aplikacja wymaga specjalnych uprawnień, aby działać prawidłowo. MarkDown Flow używa „Usług ułatwień dostępu” do wklejania tekstu oraz uprawnień do „Wyświetlania nad innymi aplikacjami”, aby pokazać pływające menu.</string>
+
+    <string name="permission_overlay_title">Wyświetlanie nad innymi aplikacjami</string>
+    <string name="permission_overlay_description">Wymagane do wyświetlania pływającego menu</string>
+
+    <string name="permission_accessibility_title">Usługi ułatwień dostępu</string>
+    <string name="permission_accessibility_description">Pozwala aplikacji na automatyczne wklejanie treści szablonu</string>
+
+    <string name="privacy_notice_title">Informacja o prywatności</string>
+    <string name="privacy_notice_text">MarkDown Flow nie zbiera, nie przechowuje ani nie przesyła żadnych danych osobowych. Wszystkie szablony są przechowywane lokalnie na Twoim urządzeniu.</string>
+
+    <string name="disclaimer_checkbox">Rozumiem i zgadzam się na udzielenie niezbędnych uprawnień</string>
+    <string name="disclaimer_button_next">Dalej</string>
+
+    <!-- Main Screen -->
+    <string name="main_title">Moje szablony</string>
+    <string name="main_binds_count">Szablony: %d</string>
+    <string name="main_search_hint">Szukaj szablonów…</string>
+    <string name="main_add_new">Utwórz nowy szablon</string>
+
+    <string name="stats_binds_inserted">Użyto\nszablonów</string>
+    <string name="stats_keystrokes_saved">Oszczędzonych\nnaciśnięć</string>
+    <string name="stats_days_active">Jesteś z nami\n(dni)</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Ustawienia</string>
+    <string name="settings_overlay_preview">Podgląd nakładki</string>
+    <string name="settings_width">Szerokość</string>
+    <string name="settings_height">Wysokość (liczba wierszy)</string>
+    <string name="settings_language">Język</string>
+    <string name="settings_about">O aplikacji</string>
+    <string name="settings_data">Dane</string>
+
+    <string name="settings_version">Wersja</string>
+    <string name="settings_build">Kompilacja</string>
+    <string name="settings_developer">Deweloper</string>
+
+    <string name="settings_export">Eksportuj szablony</string>
+    <string name="settings_import">Importuj szablony</string>
+    <string name="settings_clear">Wyczyść wszystkie dane</string>
+
+    <string name="overlay_preview_header">Szablony</string>
+    <string name="overlay_preview_row">Wiersz podglądu %d</string>
+
+    <!-- Create Bind Dialog -->
+    <string name="create_bind_title">Utwórz szablon</string>
+    <string name="create_bind_name">Nazwa</string>
+    <string name="create_bind_content">Zawartość</string>
+    <string name="create_bind_save">Zapisz</string>
+    <string name="create_bind_clear">Wyczyść</string>
+    <string name="create_bind_help">Pomoc</string>
+
+    <!-- Help Dialog -->
+    <string name="help_title">Pozycjonowanie kursora</string>
+    <string name="help_text">Użyj symbolu |, aby wskazać, gdzie kursor powinien zostać umieszczony po wstawieniu szablonu.\n\nPrzykłady:\n• **|** → Tekst pogrubiony\n• *|* → Tekst pochyły\n• [|](url) → Link\n• ```|``` → Blok kodu\n\nW przypadku braku symbolu |, kursor zostanie umieszczony na końcu.</string>
+    <string name="help_copy_symbol">Skopiuj symbol „|”</string>
+    <string name="help_close">Zamknij</string>
+
+    <!-- Overlay -->
+    <string name="overlay_title">Szablony</string>
+
+    <!-- Preset Binds -->
+    <string name="preset_dialogue">Podwójny cudzysłów</string>
+    <string name="preset_action">Gwiazdka</string>
+    <string name="preset_bold">Pogrubienie</string>
+    <string name="preset_italic">Kursywa</string>
+    <string name="preset_underline">Podkreślenie</string>
+    <string name="preset_strikethrough">Przekreślenie</string>
+    <string name="preset_code">Kod</string>
+    <string name="preset_code_block">Blok kodu</string>
+    <string name="preset_heading_1">Nagłówek 1</string>
+    <string name="preset_heading_2">Nagłówek 2</string>
+    <string name="preset_heading_3">Nagłówek 3</string>
+    <string name="preset_link">Link</string>
+    <string name="preset_image">Obraz</string>
+    <string name="preset_list">Lista</string>
+
+    <!-- Languages -->
+    <string name="lang_en">English</string>
+    <string name="lang_ru">Русский</string>
+    <string name="lang_fr">Français</string>
+    <string name="lang_de">Deutsch</string>
+    <string name="lang_it">Italiano</string>
+    <string name="lang_ja">日本語</string>
+    <string name="lang_zh">中文</string>
+    <string name="lang_pl">Polski</string>
+    <string name="lang_hi">हिन्दी</string>
+    <string name="lang_es">Español</string>
+    <string name="lang_pt">Português</string>
+
+    <!-- Common -->
+    <string name="cancel">Anuluj</string>
+    <string name="ok">OK</string>
+    <string name="delete">Usuń</string>
+    <string name="edit">Edytuj</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_bind_created">Szablon utworzono pomyślnie</string>
+    <string name="toast_bind_updated">Szablon zaktualizowano</string>
+    <string name="toast_copied">Skopiowano do schowka</string>
+</resources>

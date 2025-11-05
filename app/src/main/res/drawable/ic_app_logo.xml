@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/bg_logo_glow"
+        android:width="120dp"
+        android:height="120dp" />
+    <item
+        android:drawable="@drawable/bg_eye_glow"
+        android:width="12dp"
+        android:height="12dp"
+        android:top="54dp"
+        android:left="40dp" />
+    <item
+        android:drawable="@drawable/bg_eye_glow"
+        android:width="12dp"
+        android:height="12dp"
+        android:top="54dp"
+        android:left="68dp" />
+</layer-list>

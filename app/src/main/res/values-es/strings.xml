@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">MarkDown Flow</string>
+    <string name="app_subtitle">M•K•Down Flow</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_title">Bienvenido</string>
+    <string name="welcome_subtitle">Tu asistente inteligente para Markdown. Experimenta un formato ultrarrápido con el posicionamiento inteligente del cursor.</string>
+    <string name="welcome_demo_header">Inserción rápida</string>
+    <string name="welcome_demo_hint">Escribe tu texto…</string>
+    <string name="welcome_demo_caption">El cursor se posiciona automáticamente entre los marcadores</string>
+    <string name="welcome_language_label">Selecciona tu idioma</string>
+    <string name="welcome_bottom_text">Optimiza tu flujo de trabajo en Markdown con plantillas inteligentes</string>
+    <string name="welcome_button">Comenzar</string>
+
+    <!-- Disclaimer Dialog -->
+    <string name="disclaimer_title">Información importante</string>
+    <string name="disclaimer_subtitle">Por favor, lee antes de continuar</string>
+    <string name="disclaimer_text">Esta aplicación requiere permisos especiales para funcionar correctamente. MarkDown Flow utiliza los «Servicios de Accesibilidad» para pegar texto y el permiso «Mostrar sobre otras aplicaciones» para el menú flotante.</string>
+
+    <string name="permission_overlay_title">Mostrar sobre otras aplicaciones</string>
+    <string name="permission_overlay_description">Requerido para mostrar el menú flotante</string>
+
+    <string name="permission_accessibility_title">Servicios de Accesibilidad</string>
+    <string name="permission_accessibility_description">Permite a la aplicación pegar el contenido de la plantilla automáticamente</string>
+
+    <string name="privacy_notice_title">Aviso de privacidad</string>
+    <string name="privacy_notice_text">MarkDown Flow no recopila, almacena ni transmite ningún dato personal. Todas las plantillas se almacenan localmente en tu dispositivo.</string>
+
+    <string name="disclaimer_checkbox">Entiendo y acepto otorgar los permisos necesarios</string>
+    <string name="disclaimer_button_next">Siguiente</string>
+
+    <!-- Main Screen -->
+    <string name="main_title">Mis plantillas</string>
+    <string name="main_binds_count">Plantillas: %d</string>
+    <string name="main_search_hint">Buscar plantillas…</string>
+    <string name="main_add_new">Crear nueva plantilla</string>
+
+    <string name="stats_binds_inserted">Plantillas\nusadas</string>
+    <string name="stats_keystrokes_saved">Pulsaciones\nahorradas</string>
+    <string name="stats_days_active">Con nosotros\n(días)</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Configuración</string>
+    <string name="settings_overlay_preview">Vista previa de la superposición</string>
+    <string name="settings_width">Ancho</string>
+    <string name="settings_height">Alto (número de filas)</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_about">Acerca de</string>
+    <string name="settings_data">Datos</string>
+
+    <string name="settings_version">Versión</string>
+    <string name="settings_build">Compilación</string>
+    <string name="settings_developer">Desarrollador</string>
+
+    <string name="settings_export">Exportar plantillas</string>
+    <string name="settings_import">Importar plantillas</string>
+    <string name="settings_clear">Borrar todos los datos</string>
+
+    <string name="overlay_preview_header">Plantillas</string>
+    <string name="overlay_preview_row">Fila de vista previa %d</string>
+
+    <!-- Create Bind Dialog -->
+    <string name="create_bind_title">Crear plantilla</string>
+    <string name="create_bind_name">Nombre</string>
+    <string name="create_bind_content">Contenido</string>
+    <string name="create_bind_save">Guardar</string>
+    <string name="create_bind_clear">Limpiar</string>
+    <string name="create_bind_help">Ayuda</string>
+
+    <!-- Help Dialog -->
+    <string name="help_title">Posicionamiento del cursor</string>
+    <string name="help_text">Usa el símbolo | para indicar dónde debe posicionarse el cursor tras insertar la plantilla.\n\nEjemplos:\n• **|** → Texto en negrita\n• *|* → Texto en cursiva\n• [|](url) → Enlace\n• ```|``` → Bloque de código\n\nSi no se usa el símbolo |, el cursor se colocará al final.</string>
+    <string name="help_copy_symbol">Copiar el símbolo «|»</string>
+    <string name="help_close">Cerrar</string>
+
+    <!-- Overlay -->
+    <string name="overlay_title">Plantillas</string>
+
+    <!-- Preset Binds -->
+    <string name="preset_dialogue">Comillas dobles</string>
+    <string name="preset_action">Asterisco</string>
+    <string name="preset_bold">Negrita</string>
+    <string name="preset_italic">Cursiva</string>
+    <string name="preset_underline">Subrayado</string>
+    <string name="preset_strikethrough">Tachado</string>
+    <string name="preset_code">Código</string>
+    <string name="preset_code_block">Bloque de código</string>
+    <string name="preset_heading_1">Encabezado 1</string>
+    <string name="preset_heading_2">Encabezado 2</string>
+    <string name="preset_heading_3">Encabezado 3</string>
+    <string name="preset_link">Enlace</string>
+    <string name="preset_image">Imagen</string>
+    <string name="preset_list">Lista</string>
+
+    <!-- Languages -->
+    <string name="lang_en">English</string>
+    <string name="lang_ru">Русский</string>
+    <string name="lang_fr">Français</string>
+    <string name="lang_de">Deutsch</string>
+    <string name="lang_it">Italiano</string>
+    <string name="lang_ja">日本語</string>
+    <string name="lang_zh">中文</string>
+    <string name="lang_pl">Polski</string>
+    <string name="lang_hi">हिन्दी</string>
+    <string name="lang_es">Español</string>
+    <string name="lang_pt">Português</string>
+
+    <!-- Common -->
+    <string name="cancel">Cancelar</string>
+    <string name="ok">Aceptar</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_bind_created">Plantilla creada con éxito</string>
+    <string name="toast_bind_updated">Plantilla actualizada con éxito</string>
+    <string name="toast_copied">Copiado al portapapeles</string>
+</resources>

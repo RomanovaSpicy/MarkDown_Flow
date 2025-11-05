@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Glass input -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Inner shadow base -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/radius_m"/>
+            <solid android:color="@color/bg_deepest"/>
+        </shape>
+    </item>
+    
+    <!-- Glass overlay -->
+    <item android:top="1dp" android:left="1dp" android:right="1dp" android:bottom="1dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/radius_m"/>
+            <solid android:color="@color/glass_dark"/>
+            <stroke 
+                android:width="@dimen/stroke_thin" 
+                android:color="@color/highlight_subtle"/>
+        </shape>
+    </item>
+</layer-list>

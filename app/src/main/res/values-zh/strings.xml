@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">MarkDown Flow</string>
+    <string name="app_subtitle">M•K•Down Flow</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_title">欢迎</string>
+    <string name="welcome_subtitle">您的智能 Markdown 助手。体验智能光标定位，享受极速格式化。</string>
+    <string name="welcome_demo_header">快速插入</string>
+    <string name="welcome_demo_hint">输入文本…</string>
+    <string name="welcome_demo_caption">光标将自动定位在标记之间</string>
+    <string name="welcome_language_label">选择语言</string>
+    <string name="welcome_bottom_text">使用智能模板优化您的 Markdown 工作流程</string>
+    <string name="welcome_button">开始</string>
+
+    <!-- Disclaimer Dialog -->
+    <string name="disclaimer_title">重要信息</string>
+    <string name="disclaimer_subtitle">请在继续前阅读</string>
+    <string name="disclaimer_text">为确保应用正常运行，需要授予特定权限。MarkDown Flow 使用“无障碍服务”以插入文本，并使用“悬浮窗”权限来显示浮动菜单。</string>
+
+    <string name="permission_overlay_title">在其他应用上层显示</string>
+    <string name="permission_overlay_description">用于显示浮动菜单</string>
+
+    <string name="permission_accessibility_title">无障碍服务</string>
+    <string name="permission_accessibility_description">允许应用自动粘贴模板内容</string>
+
+    <string name="privacy_notice_title">隐私声明</string>
+    <string name="privacy_notice_text">MarkDown Flow 不会收集、存储或传输任何个人数据。所有模板都本地存储在您的设备上。</string>
+
+    <string name="disclaimer_checkbox">我理解并同意授予必要的权限</string>
+    <string name="disclaimer_button_next">下一步</string>
+
+    <!-- Main Screen -->
+    <string name="main_title">我的模板</string>
+    <string name="main_binds_count">模板: %d</string>
+    <string name="main_search_hint">搜索模板…</string>
+    <string name="main_add_new">创建新模板</string>
+
+    <string name="stats_binds_inserted">已插入\n模板</string>
+    <string name="stats_keystrokes_saved">已节省\n按键</string>
+    <string name="stats_days_active">您已使用\n天数</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">设置</string>
+    <string name="settings_overlay_preview">悬浮窗预览</string>
+    <string name="settings_width">宽度</string>
+    <string name="settings_height">高度 (行数)</string>
+    <string name="settings_language">语言</string>
+    <string name="settings_about">关于</string>
+    <string name="settings_data">数据</string>
+
+    <string name="settings_version">版本</string>
+    <string name="settings_build">构建</string>
+    <string name="settings_developer">开发者</string>
+
+    <string name="settings_export">导出模板</string>
+    <string name="settings_import">导入模板</string>
+    <string name="settings_clear">清除所有数据</string>
+
+    <string name="overlay_preview_header">模板</string>
+    <string name="overlay_preview_row">预览行 %d</string>
+
+    <!-- Create Bind Dialog -->
+    <string name="create_bind_title">创建模板</string>
+    <string name="create_bind_name">名称</string>
+    <string name="create_bind_content">内容</string>
+    <string name="create_bind_save">保存</string>
+    <string name="create_bind_clear">清除</string>
+    <string name="create_bind_help">帮助</string>
+
+    <!-- Help Dialog -->
+    <string name="help_title">光标定位</string>
+    <string name="help_text">使用“|”符号来指定插入模板后光标的位置。\n\n示例：\n• **|** → 粗体文本\n• *|* → 斜体文本\n• [|](url) → 链接\n• ```|``` → 代码块\n\n如果未提供“|”符号，光标将置于末尾。</string>
+    <string name="help_copy_symbol">复制“|”符号</string>
+    <string name="help_close">关闭</string>
+
+    <!-- Overlay -->
+    <string name="overlay_title">模板</string>
+
+    <!-- Preset Binds -->
+    <string name="preset_dialogue">双引号</string>
+    <string name="preset_action">星号</string>
+    <string name="preset_bold">粗体</string>
+    <string name="preset_italic">斜体</string>
+    <string name="preset_underline">下划线</string>
+    <string name="preset_strikethrough">删除线</string>
+    <string name="preset_code">代码</string>
+    <string name="preset_code_block">代码块</string>
+    <string name="preset_heading_1">标题 1</string>
+    <string name="preset_heading_2">标题 2</string>
+    <string name="preset_heading_3">标题 3</string>
+    <string name="preset_link">链接</string>
+    <string name="preset_image">图片</string>
+    <string name="preset_list">列表</string>
+
+    <!-- Languages -->
+    <string name="lang_en">English</string>
+    <string name="lang_ru">Русский</string>
+    <string name="lang_fr">Français</string>
+    <string name="lang_de">Deutsch</string>
+    <string name="lang_it">Italiano</string>
+    <string name="lang_ja">日本語</string>
+    <string name="lang_zh">中文</string>
+    <string name="lang_pl">Polski</string>
+    <string name="lang_hi">हिन्दी</string>
+    <string name="lang_es">Español</string>
+    <string name="lang_pt">Português</string>
+
+    <!-- Common -->
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_bind_created">模板创建成功</string>
+    <string name="toast_bind_updated">模板已更新</string>
+    <string name="toast_copied">已复制到剪贴板</string>
+</resources>

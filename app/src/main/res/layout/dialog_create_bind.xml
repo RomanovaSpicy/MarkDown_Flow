@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog"
+    android:padding="@dimen/dialog_padding"
+    android:clipToOutline="true">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/create_bind_title"
+        android:textAppearance="@style/TextAppearance.App.Title"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/close_button"/>
+
+    <!-- Close Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/close_button"
+        style="@style/Widget.Material3.Button.IconButton"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/bg_button_secondary"
+        app:icon="@drawable/ic_close"
+        app:iconTint="@color/text_secondary"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:layout_constraintTop_toTopOf="@id/title"
+        app:layout_constraintBottom_toBottomOf="@id/title"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Name Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/name_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_l"
+        android:hint="@string/create_bind_name"
+        style="@style/Widget.App.TextInputLayout"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLines="1"
+            style="@style/Widget.App.EditText"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Content Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/content_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_m"
+        android:hint="@string/create_bind_content"
+        style="@style/Widget.App.TextInputLayout"
+        app:layout_constraintTop_toBottomOf="@id/name_layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/content_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:fontFamily="monospace"
+            android:maxLines="3"
+            style="@style/Widget.App.EditText"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Buttons Row using Flow -->
+    <androidx.constraintlayout.helper.widget.Flow
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_l"
+        app:layout_constraintTop_toBottomOf="@id/content_layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:flow_wrapMode="chain"
+        app:flow_horizontalStyle="spread_inside"
+        app:constraint_referenced_ids="help_button,actions_layout"
+        />
+
+    <!-- Help Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/help_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height_small"
+        android:text="@string/create_bind_help"
+        android:textColor="@color/warning"
+        android:background="@drawable/bg_button_help"
+        android:stateListAnimator="@null"
+        app:backgroundTint="@null"
+        app:layout_constrainedWidth="true"
+        />
+
+    <!-- Action Buttons Group -->
+    <LinearLayout
+        android:id="@+id/actions_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constrainedWidth="true">
+
+        <!-- Clear Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/clear_button"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_height_small"
+            android:layout_marginEnd="@dimen/space_s"
+            android:text="@string/create_bind_clear"
+            android:textColor="@color/text_secondary"
+            android:background="@drawable/bg_button_secondary"
+            android:stateListAnimator="@null"
+            app:backgroundTint="@null"
+            app:layout_constrainedWidth="true"/>
+
+        <!-- Save Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_height_small"
+            android:text="@string/create_bind_save"
+            android:textColor="@color/text_primary"
+            android:background="@drawable/bg_button_primary"
+            android:stateListAnimator="@null"
+            app:backgroundTint="@null"
+            app:layout_constrainedWidth="true"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

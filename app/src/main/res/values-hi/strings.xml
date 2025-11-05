@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">MarkDown Flow</string>
+    <string name="app_subtitle">M•K•Down Flow</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_title">स्वागत है</string>
+    <string name="welcome_subtitle">आपका स्मार्ट Markdown सहायक। इंटेलिजेंट कर्सर प्लेसमेंट के साथ अल्ट्रा-फास्ट फ़ॉर्मेटिंग का अनुभव करें।</string>
+    <string name="welcome_demo_header">त्वरित इंसर्ट</string>
+    <string name="welcome_demo_hint">टेक्स्ट टाइप करें…</string>
+    <string name="welcome_demo_caption">कर्सर स्वचालित रूप से मार्कर्स के बीच में आ जाता है</string>
+    <string name="welcome_language_label">भाषा चुनें</string>
+    <string name="welcome_bottom_text">स्मार्ट टेम्प्लेट्स के साथ अपने Markdown वर्कफ़्लो को बेहतर बनाएं</string>
+    <string name="welcome_button">शुरू करें</string>
+
+    <!-- Disclaimer Dialog -->
+    <string name="disclaimer_title">महत्वपूर्ण जानकारी</string>
+    <string name="disclaimer_subtitle">कृपया जारी रखने से पहले पढ़ें</string>
+    <string name="disclaimer_text">इस ऐप को ठीक से काम करने के लिए विशेष अनुमतियों की आवश्यकता है। MarkDown Flow टेक्स्ट पेस्ट करने के लिए “एक्सेसिबिलिटी सेवा” और फ्लोटिंग मेनू दिखाने के लिए “अन्य ऐप्स के ऊपर प्रदर्शित करें” अनुमति का उपयोग करता है।</string>
+
+    <string name="permission_overlay_title">अन्य ऐप्स के ऊपर प्रदर्शित करें</string>
+    <string name="permission_overlay_description">फ्लोटिंग मेनू दिखाने के लिए आवश्यक है</string>
+
+    <string name="permission_accessibility_title">एक्सेसिबिलिटी सेवा</string>
+    <string name="permission_accessibility_description">ऐप को टेम्पलेट की सामग्री स्वचालित रूप से पेस्ट करने की अनुमति देता है</string>
+
+    <string name="privacy_notice_title">गोपनीयता सूचना</string>
+    <string name="privacy_notice_text">MarkDown Flow कोई भी व्यक्तिगत डेटा एकत्र, संग्रहीत या साझा नहीं करता है। सभी टेम्पलेट आपके डिवाइस पर स्थानीय रूप से संग्रहीत होते हैं।</string>
+
+    <string name="disclaimer_checkbox">मैं समझता/समझती हूँ और आवश्यक अनुमतियाँ देने के लिए सहमत हूँ</string>
+    <string name="disclaimer_button_next">अगला</string>
+
+    <!-- Main Screen -->
+    <string name="main_title">मेरे टेम्पलेट</string>
+    <string name="main_binds_count">टेम्पलेट: %d</string>
+    <string name="main_search_hint">टेम्पलेट खोजें…</string>
+    <string name="main_add_new">नया टेम्पलेट बनाएं</string>
+
+    <string name="stats_binds_inserted">इस्तेमाल किए गए\nटेम्पलेट</string>
+    <string name="stats_keystrokes_saved">बचाए गए\nकीस्ट्रोक</string>
+    <string name="stats_days_active">आप हमारे साथ\n(दिन)</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">सेटिंग्स</string>
+    <string name="settings_overlay_preview">ओवरले प्रीव्यू</string>
+    <string name="settings_width">चौड़ाई</string>
+    <string name="settings_height">ऊंचाई (लाइनों की संख्या)</string>
+    <string name="settings_language">भाषा</string>
+    <string name="settings_about">ऐप के बारे में</string>
+    <string name="settings_data">डेटा</string>
+
+    <string name="settings_version">संस्करण</string>
+    <string name="settings_build">बिल्ड</string>
+    <string name="settings_developer">डेवलपर</string>
+
+    <string name="settings_export">टेम्पलेट एक्सपोर्ट करें</string>
+    <string name="settings_import">टेम्पलेट इम्पोर्ट करें</string>
+    <string name="settings_clear">सभी डेटा साफ़ करें</string>
+
+    <string name="overlay_preview_header">टेम्पलेट</string>
+    <string name="overlay_preview_row">प्रीव्यू लाइन %d</string>
+
+    <!-- Create Bind Dialog -->
+    <string name="create_bind_title">टेम्पलेट बनाएं</string>
+    <string name="create_bind_name">नाम</string>
+    <string name="create_bind_content">सामग्री</string>
+    <string name="create_bind_save">सहेजें</string>
+    <string name="create_bind_clear">साफ़ करें</string>
+    <string name="create_bind_help">सहायता</string>
+
+    <!-- Help Dialog -->
+    <string name="help_title">कर्सर पोजिशनिंग</string>
+    <string name="help_text">टेम्पलेट डालने के बाद कर्सर कहाँ रखा जाना चाहिए, यह बताने के लिए “|” प्रतीक का उपयोग करें।\n\nउदाहरण:\n• **|** → बोल्ड टेक्स्ट\n• *|* → इटैलिक टेक्स्ट\n• [|](url) → लिंक\n• ```|``` → कोड ब्लॉक\n\nयदि “|” प्रतीक नहीं है, तो कर्सर अंत में रखा जाएगा।</string>
+    <string name="help_copy_symbol">प्रतीक “|” कॉपी करें</string>
+    <string name="help_close">बंद करें</string>
+
+    <!-- Overlay -->
+    <string name="overlay_title">टेम्पलेट</string>
+
+    <!-- Preset Binds -->
+    <string name="preset_dialogue">डबल कोट्स</string>
+    <string name="preset_action">एस्टरिक</string>
+    <string name="preset_bold">बोल्ड</string>
+    <string name="preset_italic">इटैलिक</string>
+    <string name="preset_underline">अंडरलाइन</string>
+    <string name="preset_strikethrough">स्ट्राइकथ्रू</string>
+    <string name="preset_code">कोड</string>
+    <string name="preset_code_block">कोड ब्लॉक</string>
+    <string name="preset_heading_1">हेडिंग 1</string>
+    <string name="preset_heading_2">हेडिंग 2</string>
+    <string name="preset_heading_3">हेडिंग 3</string>
+    <string name="preset_link">लिंक</string>
+    <string name="preset_image">इमेज</string>
+    <string name="preset_list">लिस्ट</string>
+
+    <!-- Languages -->
+    <string name="lang_en">English</string>
+    <string name="lang_ru">Русский</string>
+    <string name="lang_fr">Français</string>
+    <string name="lang_de">Deutsch</string>
+    <string name="lang_it">Italiano</string>
+    <string name="lang_ja">日本語</string>
+    <string name="lang_zh">中文</string>
+    <string name="lang_pl">Polski</string>
+    <string name="lang_hi">हिन्दी</string>
+    <string name="lang_es">Español</string>
+    <string name="lang_pt">Português</string>
+
+    <!-- Common -->
+    <string name="cancel">रद्द करें</string>
+    <string name="ok">ठीक है</string>
+    <string name="delete">हटाएं</string>
+    <string name="edit">संपादित करें</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_bind_created">टेम्पलेट सफलतापूर्वक बन गया</string>
+    <string name="toast_bind_updated">टेम्पलेट अपडेट हो गया</string>
+    <string name="toast_copied">क्लिपबोर्ड पर कॉपी किया गया</string>
+</resources>

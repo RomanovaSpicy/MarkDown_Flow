@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">MarkDown Flow</string>
+    <string name="app_subtitle">M•K•Down Flow</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_title">Benvenuto</string>
+    <string name="welcome_subtitle">Il tuo assistente Markdown intelligente. Prova la formattazione ultra-veloce grazie al posizionamento intelligente del cursore.</string>
+    <string name="welcome_demo_header">Inserimento rapido</string>
+    <string name="welcome_demo_hint">Digita il testo…</string>
+    <string name="welcome_demo_caption">Il cursore si posiziona automaticamente tra i marcatori</string>
+    <string name="welcome_language_label">Scegli la lingua</string>
+    <string name="welcome_bottom_text">Ottimizza il tuo flusso di lavoro in Markdown con modelli intelligenti</string>
+    <string name="welcome_button">Inizia</string>
+
+    <!-- Disclaimer Dialog -->
+    <string name="disclaimer_title">Informazioni importanti</string>
+    <string name="disclaimer_subtitle">Si prega di leggere prima di continuare</string>
+    <string name="disclaimer_text">Questa applicazione richiede autorizzazioni speciali per funzionare correttamente. MarkDown Flow utilizza i “Servizi di accessibilità” per incollare il testo e l\'autorizzazione “Visualizza sopra altre app” per mostrare il menu flottante.</string>
+
+    <string name="permission_overlay_title">Visualizza sopra altre app</string>
+    <string name="permission_overlay_description">Necessaria per mostrare il menu flottante</string>
+
+    <string name="permission_accessibility_title">Servizi di accessibilità</string>
+    <string name="permission_accessibility_description">Permette di incollare automaticamente il contenuto del modello</string>
+
+    <string name="privacy_notice_title">Informativa sulla privacy</string>
+    <string name="privacy_notice_text">MarkDown Flow non raccoglie, memorizza o trasmette alcun dato personale. Tutti i modelli sono memorizzati localmente sul tuo dispositivo.</string>
+
+    <string name="disclaimer_checkbox">Comprendo e accetto di concedere le autorizzazioni necessarie</string>
+    <string name="disclaimer_button_next">Avanti</string>
+
+    <!-- Main Screen -->
+    <string name="main_title">I miei modelli</string>
+    <string name="main_binds_count">Modelli: %d</string>
+    <string name="main_search_hint">Cerca modelli…</string>
+    <string name="main_add_new">Crea nuovo modello</string>
+
+    <string name="stats_binds_inserted">Modelli\nutilizzati</string>
+    <string name="stats_keystrokes_saved">Battute\nrisparmiate</string>
+    <string name="stats_days_active">Sei con noi da\n(giorni)</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Impostazioni</string>
+    <string name="settings_overlay_preview">Anteprima overlay</string>
+    <string name="settings_width">Larghezza</string>
+    <string name="settings_height">Altezza (numero di righe)</string>
+    <string name="settings_language">Lingua</string>
+    <string name="settings_about">Informazioni</string>
+    <string name="settings_data">Dati</string>
+
+    <string name="settings_version">Versione</string>
+    <string name="settings_build">Build</string>
+    <string name="settings_developer">Sviluppatore</string>
+
+    <string name="settings_export">Esporta modelli</string>
+    <string name="settings_import">Importa modelli</string>
+    <string name="settings_clear">Cancella tutti i dati</string>
+
+    <string name="overlay_preview_header">Modelli</string>
+    <string name="overlay_preview_row">Riga anteprima %d</string>
+
+    <!-- Create Bind Dialog -->
+    <string name="create_bind_title">Crea modello</string>
+    <string name="create_bind_name">Nome</string>
+    <string name="create_bind_content">Contenuto</string>
+    <string name="create_bind_save">Salva</string>
+    <string name="create_bind_clear">Svuota</string>
+    <string name="create_bind_help">Aiuto</string>
+
+    <!-- Help Dialog -->
+    <string name="help_title">Posizionamento del cursore</string>
+    <string name="help_text">Usa il simbolo | per indicare dove posizionare il cursore dopo l\'inserimento del modello.\n\nEsempi:\n• **|** → Testo in grassetto\n• *|* → Testo in corsivo\n• [|](url) → Link\n• ```|``` → Blocco di codice\n\nSe il simbolo | è assente, il cursore sarà posizionato alla fine.</string>
+    <string name="help_copy_symbol">Copia il simbolo “|”</string>
+    <string name="help_close">Chiudi</string>
+
+    <!-- Overlay -->
+    <string name="overlay_title">Modelli</string>
+
+    <!-- Preset Binds -->
+    <string name="preset_dialogue">Doppie virgolette</string>
+    <string name="preset_action">Asterisco</string>
+    <string name="preset_bold">Grassetto</string>
+    <string name="preset_italic">Corsivo</string>
+    <string name="preset_underline">Sottolineato</string>
+    <string name="preset_strikethrough">Barrato</string>
+    <string name="preset_code">Codice</string>
+    <string name="preset_code_block">Blocco di codice</string>
+    <string name="preset_heading_1">Intestazione 1</string>
+    <string name="preset_heading_2">Intestazione 2</string>
+    <string name="preset_heading_3">Intestazione 3</string>
+    <string name="preset_link">Link</string>
+    <string name="preset_image">Immagine</string>
+    <string name="preset_list">Elenco</string>
+
+    <!-- Languages -->
+    <string name="lang_en">English</string>
+    <string name="lang_ru">Русский</string>
+    <string name="lang_fr">Français</string>
+    <string name="lang_de">Deutsch</string>
+    <string name="lang_it">Italiano</string>
+    <string name="lang_ja">日本語</string>
+    <string name="lang_zh">中文</string>
+    <string name="lang_pl">Polski</string>
+    <string name="lang_hi">हिन्दी</string>
+    <string name="lang_es">Español</string>
+    <string name="lang_pt">Português</string>
+
+    <!-- Common -->
+    <string name="cancel">Annulla</string>
+    <string name="ok">OK</string>
+    <string name="delete">Elimina</string>
+    <string name="edit">Modifica</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_bind_created">Modello creato con successo</string>
+    <string name="toast_bind_updated">Modello aggiornato con successo</string>
+    <string name="toast_copied">Copiato negli appunti</string>
+</resources>

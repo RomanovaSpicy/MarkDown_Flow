@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog"
+    android:clipToOutline="true"
+    android:padding="@dimen/dialog_padding">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height_medium"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/selector_button_disclaimer"
+        android:enabled="false"
+        android:stateListAnimator="@null"
+        android:text="@string/disclaimer_button_next"
+        android:textAppearance="@style/TextAppearance.App.Subheading"
+        android:textColor="@color/text_primary" />
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/next_button"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/space_l">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Title -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/disclaimer_title"
+                android:textAppearance="@style/TextAppearance.App.Title" />
+
+            <!-- Subtitle -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_s"
+                android:text="@string/disclaimer_subtitle"
+                android:textAppearance="@style/TextAppearance.App.Caption" />
+
+            <!-- Disclaimer Text -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_l"
+                android:backgroundTint="@color/bg_deepest"
+                app:cardCornerRadius="@dimen/radius_m"
+                app:cardElevation="0dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingMultiplier="1.4"
+                    android:padding="@dimen/space_m"
+                    android:text="@string/disclaimer_text"
+                    android:textAppearance="@style/TextAppearance.App.Body" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Permission Cards -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_m"
+                android:orientation="vertical">
+
+                <!-- Overlay Permission Card -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/permission_overlay_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/space_s"
+                    android:backgroundTint="@color/glass_light"
+                    app:cardCornerRadius="@dimen/radius_m"
+                    app:cardElevation="0dp"
+                    app:strokeColor="@color/highlight_subtle"
+                    app:strokeWidth="@dimen/stroke_thin">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/space_m">
+
+                        <!-- Icon -->
+                        <FrameLayout
+                            android:id="@+id/overlay_icon"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/bg_logo_mini"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/ic_shield"
+                                app:tint="@color/primary" />
+                        </FrameLayout>
+
+                        <!-- Text -->
+                        <LinearLayout
+                            android:id="@+id/overlay_text"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/space_m"
+                            android:layout_marginEnd="@dimen/space_m"
+                            android:orientation="vertical"
+                            app:layout_constraintBottom_toBottomOf="@id/overlay_icon"
+                            app:layout_constraintEnd_toStartOf="@id/overlay_info"
+                            app:layout_constraintStart_toEndOf="@id/overlay_icon"
+                            app:layout_constraintTop_toTopOf="@id/overlay_icon">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/permission_overlay_title"
+                                android:textAppearance="@style/TextAppearance.App.Body"
+                                android:textColor="@color/text_primary" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/space_xs"
+                                android:text="@string/permission_overlay_description"
+                                android:textAppearance="@style/TextAppearance.App.Small" />
+                        </LinearLayout>
+
+                        <!-- Info Button -->
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/overlay_info"
+                            style="@style/Widget.Material3.Button.IconButton"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:background="@drawable/bg_button_secondary"
+                            app:icon="@drawable/ic_info"
+                            app:iconGravity="textStart"
+                            app:iconPadding="0dp"
+                            app:iconTint="@color/text_secondary"
+                            app:layout_constraintBottom_toBottomOf="@id/overlay_icon"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@id/overlay_icon" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Accessibility Permission Card -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/permission_accessibility_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/glass_light"
+                    app:cardCornerRadius="@dimen/radius_m"
+                    app:cardElevation="0dp"
+                    app:strokeColor="@color/highlight_subtle"
+                    app:strokeWidth="@dimen/stroke_thin">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/space_m">
+
+                        <FrameLayout
+                            android:id="@+id/accessibility_icon"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/bg_logo_mini"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/ic_accessibility"
+                                app:tint="@color/primary" />
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:id="@+id/accessibility_text"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/space_m"
+                            android:layout_marginEnd="@dimen/space_m"
+                            android:orientation="vertical"
+                            app:layout_constraintBottom_toBottomOf="@id/accessibility_icon"
+                            app:layout_constraintEnd_toStartOf="@id/accessibility_info"
+                            app:layout_constraintStart_toEndOf="@id/accessibility_icon"
+                            app:layout_constraintTop_toTopOf="@id/accessibility_icon">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/permission_accessibility_title"
+                                android:textAppearance="@style/TextAppearance.App.Body"
+                                android:textColor="@color/text_primary" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/space_xs"
+                                android:text="@string/permission_accessibility_description"
+                                android:textAppearance="@style/TextAppearance.App.Small" />
+                        </LinearLayout>
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/accessibility_info"
+                            style="@style/Widget.Material3.Button.IconButton"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:background="@drawable/bg_button_secondary"
+                            app:icon="@drawable/ic_info"
+                            app:iconGravity="textStart"
+                            app:iconPadding="0dp"
+                            app:iconTint="@color/text_secondary"
+                            app:layout_constraintBottom_toBottomOf="@id/accessibility_icon"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@id/accessibility_icon" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+
+            <!-- Privacy Notice -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_m"
+                android:backgroundTint="@color/bg_deepest"
+                app:cardCornerRadius="@dimen/radius_m"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/space_m">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginEnd="@dimen/space_s"
+                        android:src="@drawable/ic_info"
+                        app:tint="@color/success" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/privacy_notice_title"
+                            android:textAppearance="@style/TextAppearance.App.Caption"
+                            android:textColor="@color/text_primary" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/space_xs"
+                            android:lineSpacingMultiplier="1.4"
+                            android:text="@string/privacy_notice_text"
+                            android:textAppearance="@style/TextAppearance.App.Small" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Agreement Checkbox -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_l"
+                android:background="@drawable/bg_input_glass"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="@dimen/space_m">
+
+                <com.google.android.material.checkbox.MaterialCheckBox
+                    android:id="@+id/agree_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/primary" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/space_s"
+                    android:layout_weight="1"
+                    android:text="@string/disclaimer_checkbox"
+                    android:textAppearance="@style/TextAppearance.App.Caption" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
