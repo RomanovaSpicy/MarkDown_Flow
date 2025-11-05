@@ -10,6 +10,9 @@ A native Android application created to optimize working with Markdown-style tex
 
 ---
 
+[Support the author (Boosty).](https://boosty.to/romanovasophie)
+
+---
 ## 🎨 Key Features
 
 -   **Preset & Custom Binds**: Comes with a default set inspired by SpicyChat markup and allows creating unlimited custom templates.
